@@ -1,0 +1,10 @@
+# Visual Studio & IDE Folders/Files
+.vs/
+*.vsidx
+
+# Binaries/Build Output
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
