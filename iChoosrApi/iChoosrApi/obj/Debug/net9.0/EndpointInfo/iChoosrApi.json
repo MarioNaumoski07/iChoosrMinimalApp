@@ -1,0 +1,31 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "iChoosrApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "summary": "Hello World iChoosr.",
+        "description": "This is root of the endpoint and after this will be other endpoint that we will work with.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

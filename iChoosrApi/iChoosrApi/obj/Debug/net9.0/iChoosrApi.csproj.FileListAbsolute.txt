@@ -28,3 +28,11 @@ C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0
 C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\iChoosrApi.pdb
 C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\iChoosrApi.genruntimeconfig.cache
 C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\ref\iChoosrApi.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\iChoosrApi.csproj.AssemblyReference.cache
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\iChoosrApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Xessable\source\repos\iChoosrApi\iChoosrApi\iChoosrApi\obj\Debug\net9.0\iChoosrApi.csproj.Up2Date
