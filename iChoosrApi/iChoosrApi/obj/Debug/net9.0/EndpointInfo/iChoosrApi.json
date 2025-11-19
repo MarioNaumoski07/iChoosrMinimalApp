@@ -5,6 +5,82 @@
     "version": "1.0"
   },
   "paths": {
+    "/payloads": {
+      "get": {
+        "tags": [
+          "iChoosrApi"
+        ],
+        "description": "Here we retrive space x payloads for all satelites.",
+        "operationId": "SpaceXPayloads",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/payloads/{payload_id}": {
+      "get": {
+        "tags": [
+          "iChoosrApi"
+        ],
+        "description": "Here we retrive one space x payload. Here our most popular and available payloads from satelites: \n FalconSAT-2 , \n Trailblazer, \n PRESat, \n RatSat, \n RazakSAT, \n Dragon Qualification Unit",
+        "operationId": "SpaceXPayload",
+        "parameters": [
+          {
+            "name": "payloadName",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/login": {
+      "get": {
+        "tags": [
+          "iChoosrApi"
+        ],
+        "description": "Please after you login, copy the bearer token and past in swagger popup when you click on authorization button so you will be able to execute api endpoints.",
+        "operationId": "Login users",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/": {
       "get": {
         "tags": [
@@ -27,5 +103,19 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter JWT token after you log in",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
